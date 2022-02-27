@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;;
+    line-height: 1.6;
+    background-color:#575791 ;
+    color:#fff;
+}
+
+#container{
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: .6rem;
+}
+
+#title{
+    font-size:30px;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+}
+
+#description{
+    font-size:20px ;
+    text-align: center;
+    padding: .3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    font-weight: 200;
+}
+
+#survey-form{
+    background-color: #222242;
+    padding:38px;
+    border-radius: 7px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#name, #email, #age, #dropdown-selector-role, #favorite-selector
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.checkbox-selector{
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.form-group textarea{
+    height: 9rem;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+}   
+
+.submit{
+    width:100%;
+   border: none;
+   height: 7vh;
+   border-radius: 2px;
+   cursor: pointer;
+   background: #25e67b;
+   color: inherit;
+   font-size: 20px;
+}
+
+
+
